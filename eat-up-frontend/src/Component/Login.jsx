@@ -26,7 +26,7 @@ const Login = () => {
                     </div>
                 </div>
                 <h1 className="w-full text-right font-semibold cursor-pointer hover:text-teal-400">Forget password?</h1>
-                <h1 className="bg-teal-400 rounded-full px-16 py-1 mt-2 text-white font-semibold border border-transparent hover:border hover:border-teal-400 hover:text-teal-400 hover:bg-transparent mb-4 cursor-pointer">LOGIN</h1>
+                <h1 className="bg-teal-400 rounded-full px-16 py-1 mt-2 text-white font-semibold border border-transparent hover:border-teal-400 hover:text-teal-400 hover:bg-transparent mb-4 cursor-pointer">LOGIN</h1>
                 <h1>Or Sign Up Using</h1>
                 <div className="flex gap-5 text-lg mt-2 mb-8">
                     <i class="fa-brands fa-facebook-f hover:text-blue-800 text-white bg-blue-800 px-3 py-2 rounded-full hover:bg-transparent cursor-pointer"></i>
