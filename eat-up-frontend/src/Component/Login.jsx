@@ -3,8 +3,8 @@ import background from '../Images/login_banner.jpg';
 
 const Login = () => {
     return (
-        <div className='w-screen h-screen flex justify-center items-center relative text-white'>
-            <img src={background} alt="banner" className='h-full w-full object-cover absolute z-[-1] blur'/>
+        <div className='w-full h-screen flex justify-center items-center relative text-white overflow-hidden'>
+            <img src={background} alt="banner" className='h-full w-full scale-105 object-cover absolute z-[-1] blur'/>
             <div className="bg-black p-16 w-96 h-fit flex flex-col gap-2 items-center rounded-lg text-sm mt-12 bg-opacity-50 border border-y-cyan-400 border-x-red-400">
                 <h1 className='text-2xl font-semibold pb-8 text-teal-400'>Login</h1>
                 <div className='border-b border-gray-600 pb-1 focus-within:border-teal-400 w-full'>
