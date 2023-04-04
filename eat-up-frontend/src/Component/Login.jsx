@@ -1,5 +1,6 @@
 import React from 'react';
 import background from '../Images/login_banner.jpg';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     return (
@@ -25,8 +26,8 @@ const Login = () => {
                         <input type="password" placeholder='Type your password'  className='outline-none w-full bg-transparent'/>
                     </div>
                 </div>
-                <h1 className="w-full text-right font-semibold cursor-pointer hover:text-teal-400">Forget password?</h1>
-                <h1 className="bg-teal-400 rounded-full px-16 py-1 mt-2 text-white font-semibold border border-transparent hover:border-teal-400 hover:text-teal-400 hover:bg-transparent mb-4 cursor-pointer">LOGIN</h1>
+                <Link to='/forgetpass' className="w-full text-right font-semibold cursor-pointer hover:text-teal-400">Forget password?</Link>
+                <button className="bg-teal-400 rounded-sm px-16 py-1 mt-2 text-white font-semibold border border-transparent hover:border-teal-400 hover:text-teal-400 hover:bg-transparent mb-4">LOGIN</button>
                 <h1>Or Sign Up Using</h1>
                 <div className="flex gap-5 text-lg mt-2 mb-8">
                     <i class="fa-brands fa-facebook-f hover:text-blue-800 text-white bg-blue-800 px-3 py-2 rounded-full hover:bg-transparent cursor-pointer"></i>
@@ -34,7 +35,7 @@ const Login = () => {
                     <i class="fa-brands fa-google hover:text-red-600 text-white bg-red-600 p-2 rounded-full hover:bg-transparent cursor-pointer"></i>
                 </div>
                 <h1>Or Sign Up Using</h1>
-                <h1 className='font-semibold cursor-pointer hover:text-teal-400'>Sign Up</h1>
+                <Link to='/signup' className='font-semibold cursor-pointer hover:text-teal-400'>Sign Up</Link>
             </div>
         </div>
     );
