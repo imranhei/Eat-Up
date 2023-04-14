@@ -13,7 +13,7 @@ export default Location = () => {
     ]
     return (
         <>
-            <h1 className="text-black font-extrabold text-5xl text-center p-16">Select the place where you want to pick or delivery</h1>
+            <h1 className="text-black font-extrabold md:text-5xl text-3xl text-center p-16">Select the place where you want to pick or delivery</h1>
             <Swiper
                 modules={[Navigation, Pagination, A11y, Autoplay]}
                 spaceBetween={25}
@@ -28,16 +28,14 @@ export default Location = () => {
             >
                 {
                     places.map((place) => (
-                        <SwiperSlide className="swiper-slide relative">
-                            <div className="swiper-slide-image w-40 h-40">
-                                <img src={dhaka} alt='{place}' className=" w-full h-full object-cover" />
+                        <SwiperSlide className="swiper-slide relative mb-10">
+                            <div className="swiper-slide-image w-44 h-44">
+                                <img src={dhaka} alt={place} className=" w-full h-full object-cover" />
                             </div>
-                            <h1 className="absolute text-white font-extrabold text-3xl bottom-0">{place}</h1>
+                            <h1 className="absolute text-white font-extrabold text-3xl bottom-1 w-full text-center">{place}</h1>
                         </SwiperSlide>
                     ))
                 }
-                <br />
-                <br />
             </Swiper>
             <style jsx>{`  
                 .swiper-slide-active, .swiper-slide-next, .swiper-slide{
@@ -47,49 +45,3 @@ export default Location = () => {
         </>
       );
 }
-
-/*import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation } from 'swiper';
-
-import 'swiper/css';
-import 'swiper/css/navigation';
-import dhaka from '../../Images/Locations/dhaka.jpg';
-SwiperCore.use([Navigation]);
-
-export default function App() {
-  return (
-    <>
-    <Swiper
-      spaceBetween={50}
-      slidesPerView={'auto'}
-      navigation
-      className="swiper-container"
-    >
-      <SwiperSlide className="swiper-slide">
-        <div className="swiper-slide-image">
-          <img src={dhaka} alt='{place}' className=" w-full h-full object-cover" />
-        </div>
-      </SwiperSlide>
-      <SwiperSlide className="swiper-slide">
-        <div className="swiper-slide-image">
-          <img src={dhaka} alt='{place}' className=" w-full h-full object-cover" />
-        </div>
-      </SwiperSlide>
-      <SwiperSlide className="swiper-slide">
-        <div className="swiper-slide-image">
-          <img src={dhaka} alt='{place}' className=" w-full h-full object-cover" />
-        </div>
-      </SwiperSlide>
-      <SwiperSlide className="swiper-slide">
-        <div className="swiper-slide-image">
-          <img src={dhaka} alt='{place}' className=" w-full h-full object-cover" />
-        </div>
-      </SwiperSlide>
-      
-    </Swiper>
-    
-    </>
-  );
-}
-*/
