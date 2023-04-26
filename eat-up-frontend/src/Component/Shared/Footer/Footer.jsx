@@ -6,11 +6,11 @@ const Footer = () => {
             <div className='sm:flex justify-between sm:items-center flex-wrap p-8'>
                 <h1 className='text-4xl font-bold'>Connect with us</h1>
                 <div className='flex sm:pt-0 pt-4'>
-                    <i class="fa-brands fa-facebook-f p-4 border border-solid cursor-pointer hover:text-teal-400"></i>
-                    <i class="fa-brands fa-twitter p-4 border border-solid cursor-pointer hover:text-teal-400"></i>
-                    <i class="fa-brands fa-instagram p-4 border border-solid cursor-pointer hover:text-teal-400"></i>
-                    <i class="fa-brands fa-youtube p-4 border border-solid cursor-pointer hover:text-teal-400"></i>
-                    <i class="fa-brands fa-linkedin p-4 border border-solid cursor-pointer hover:text-teal-400"></i>
+                    <i className="fa-brands fa-facebook-f p-4 border border-solid cursor-pointer hover:text-teal-400"></i>
+                    <i className="fa-brands fa-twitter p-4 border border-solid cursor-pointer hover:text-teal-400"></i>
+                    <i className="fa-brands fa-instagram p-4 border border-solid cursor-pointer hover:text-teal-400"></i>
+                    <i className="fa-brands fa-youtube p-4 border border-solid cursor-pointer hover:text-teal-400"></i>
+                    <i className="fa-brands fa-linkedin p-4 border border-solid cursor-pointer hover:text-teal-400"></i>
                 </div>
             </div>
             <hr/>

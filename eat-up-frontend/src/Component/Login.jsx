@@ -37,9 +37,9 @@ const Login = () => {
                 <button onClick={handleLogin} className="bg-teal-400 rounded-sm px-16 py-1 mt-2 text-white font-semibold border border-transparent hover:border-teal-400 hover:text-teal-400 hover:bg-transparent mb-4">LOGIN</button>
                 <h1>Or Sign Up Using</h1>
                 <div className="flex gap-5 text-lg mt-2 mb-8">
-                    <i class="fa-brands fa-facebook-f hover:text-blue-800 text-white bg-blue-800 px-3 py-2 rounded-full hover:bg-transparent cursor-pointer"></i>
-                    <i class="fa-brands fa-twitter hover:text-teal-400 text-white bg-teal-400 p-2 rounded-full hover:bg-transparent cursor-pointer"></i>
-                    <i class="fa-brands fa-google hover:text-red-600 text-white bg-red-600 p-2 rounded-full hover:bg-transparent cursor-pointer"></i>
+                    <i className="fa-brands fa-facebook-f hover:text-blue-800 text-white bg-blue-800 px-3 py-2 rounded-full hover:bg-transparent cursor-pointer"></i>
+                    <i className="fa-brands fa-twitter hover:text-teal-400 text-white bg-teal-400 p-2 rounded-full hover:bg-transparent cursor-pointer"></i>
+                    <i className="fa-brands fa-google hover:text-red-600 text-white bg-red-600 p-2 rounded-full hover:bg-transparent cursor-pointer"></i>
                 </div>
                 <h1>Or Sign Up Using</h1>
                 <Link to='/signup' className='font-semibold cursor-pointer hover:text-teal-400'>Sign Up</Link>
