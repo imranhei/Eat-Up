@@ -14,22 +14,22 @@ const Footer = () => {
                 </div>
             </div>
             <hr/>
-            <div className='sm:flex justify-start gap-x-24 lg:gap-40 flex-wrap px-8 my-2'>
-                <div>
+            <div className='flex md:flex-row flex-col text-center md:text-left justify-start px-8 my-2 '>
+                <div className='flex-1'>
                     <h1 className='font-bold py-2 text-xl'>More About Eat-Up</h1>
                     <h1 className='font-semibold py-2 cursor-pointer hover:text-teal-400'>Who we are</h1>
                     <h1 className='font-semibold py-2 cursor-pointer hover:text-teal-400'>What we do</h1>
                     <h1 className='font-semibold py-2 cursor-pointer hover:text-teal-400'>Our Values</h1>
                     <h1 className='font-semibold py-2 cursor-pointer hover:text-teal-400'>Leadership</h1>
                 </div>    
-                <div>
+                <div className='flex-1'>
                     <h1 className='font-bold py-2 text-xl'>Can we help?</h1>
                     <h1 className='font-semibold py-2 cursor-pointer hover:text-teal-400'>Job Search for Professionals</h1>
                     <h1 className='font-semibold py-2 cursor-pointer hover:text-teal-400'>Eat-Up Social Media</h1>
                     <h1 className='font-semibold py-2 cursor-pointer hover:text-teal-400'>Eat-Up Apps</h1>
                     <h1 className='font-semibold py-2 cursor-pointer hover:text-teal-400'>Eat-Up Global Helpline</h1>
                 </div>    
-                <div>
+                <div className='flex-1'>
                     <h1 className='font-bold py-2 text-xl'>Site Information</h1>
                     <h1 className='font-semibold py-2 cursor-pointer hover:text-teal-400'>Accessibilty</h1>
                     <h1 className='font-semibold py-2 cursor-pointer hover:text-teal-400'>Terms and Conditions</h1>

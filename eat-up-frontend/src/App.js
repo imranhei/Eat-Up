@@ -5,6 +5,7 @@ import About from "./Component/About";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./Component/Login";
 import Contact from "./Component/Contact";
+import Restuarant from './Component/Restuarant'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path='/about' element={<About />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/:restuarant' element={<Restuarant />} />
         </Routes>
       </Router>
       <Footer/>
